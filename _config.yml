@@ -1,0 +1,15 @@
+# Global Site Information
+title: Town of Pound, Virginia
+url: "https://poundva.github.io"
+baseurl: ""
+
+# Jekyll Settings
+permalink: /:categories/:title/
+exclude: ['readme.md', '.gitignore', '.sass-cache', 'Gemfile', 'Gemfile.lock', '_linked-data']
+show_drafts: false
+plugins: ['jekyll-feed', 'jekyll-sitemap']
+feed:
+  path: atom.xml
+sass:
+  sass_dir: _sass
+  style: compressed
