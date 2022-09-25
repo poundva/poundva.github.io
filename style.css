@@ -26,6 +26,7 @@ html {
 #introduction {
     background: #191919;
     padding: 2em;
+    text-align: center;
     color: #ddd;
     color: rgba(255,255,255,0.675);
     display:flex;
@@ -43,10 +44,10 @@ html {
 }
 
 #introduction em {
-    font-size: 6em;
+    font-size: 3em;
     font-style:normal;
     text-transform: uppercase;
-    margin:0;
+    margin:.25em 0;
 }
 
 #introduction span {
