@@ -17,6 +17,12 @@ html {
     padding: 0 0.5rem;
 }
 
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
 header {
     display:flex;
     flex-direction: column;
@@ -95,4 +101,29 @@ header {
 
 #main h1 + ul {
     margin-top:0;
+}
+
+#town-council-list {
+    list-style:none;
+    padding-left:0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#town-council-list img {
+    background: #999;
+}
+
+#town-council-list li {
+    flex: 24%;
+    max-width: 24%;
+    margin-bottom: 2em;
+}
+
+#town-council-list #mayor,
+#town-council-list #vice-mayor {
+    flex: 49%;
+    max-width: 49%;
 }
